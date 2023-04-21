@@ -1,0 +1,5 @@
+python detect.py --source dataset/images/train/img2111.jpg --cfg cfg/yolor_p6_custom.cfg --weights runs/train/yolor_p6_custom9/weights/best_f.pt --conf 0.25 --img-size 256 --names=data/custom.yaml --device 0
+
+python detect.py --source mushroom.PNG --cfg cfg/yolor_p6_custom.cfg --weights runs/train/yolor_p6_custom9/weights/best_f.pt --conf 0.25 --img-size 512 --names=data/custom.names --device 0
+
+python detect.py --source mushroom.PNG --cfg cfg/yolor_p6_custom.cfg --weights runs/train/yolor_p6_custom9/weights/best_f.pt --conf 0.25 --img-size 512 --names=data/custom.names --device CPU
