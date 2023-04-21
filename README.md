@@ -7,3 +7,12 @@
 - Vaibhavi Jhawar
 - Benjamin Ung
 - Makarius Salib
+
+
+Weights and Yolor_6 are in the google drive
+https://drive.google.com/drive/folders/17rAfFdo5ZfMiq70VAJv33Mw03SyX31j9
+
+
+Put Yolor_P6 in Pytorch/yolor-main
+
+Put weights in Pytorch/yolor-main/run/train/yolorP6_custom9
